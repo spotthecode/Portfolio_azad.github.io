@@ -1,0 +1,67 @@
+
+
+.project{
+    background-color: white;
+    padding: 20px 50px;
+}
+.project h1{
+    
+    text-align:center;
+     color: black;
+     margin-top: 200px;
+}
+.workProjects{
+    margin-top: 50px;
+}
+.cardContainer {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.cardContainer .card{
+   margin: 2%;
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: rgb(160, 160, 160);
+}
+.cardContainer .card:hover{
+  border-bottom: 5px solid black;
+}
+
+
+.webDevelopmentContainer .card{
+    background-color: rgb(160, 160, 160);
+}
+.miscellaneousContainer .card{
+    background-color: rgb(160, 160, 160);
+}
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-width: 500px) {
+    .project{
+        padding: 10px 10px;
+    }
+    .project h1{
+        font-size: 24px;
+         color: black;
+         margin-top: 100px;
+    }
+    .cardContainer .card{
+        margin: 5% 0%;
+        height: 200px;
+        width: 100vw;
+        background-color:rgb(160, 160, 160);
+    }
+    
+
+
+
+    .webDevelopmentContainer .card{
+        background-color:rgb(160, 160, 160) ;
+    }
+
+    .miscellaneousContainer .card{
+        background-color: rgb(160, 160, 160);
+    }
+}

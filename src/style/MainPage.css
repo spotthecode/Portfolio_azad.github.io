@@ -1,0 +1,39 @@
+
+.MainPage{
+    background-color: white;
+}
+.aboutMe{
+    padding: 20px 15%;
+}
+.aboutMe p{
+    border-left: 4px solid black;
+    padding-left: 10px;
+    font-size:1rem;
+    /* font-weight: bold; */
+}
+
+
+/* ****Educations*** */
+.educations{
+    padding: 20px 15%;
+}
+.educations h1{
+    color:black;
+    text-align: right;
+}
+.educations p{
+    border-right: 4px solid black;
+    padding-right: 10px;
+    text-align: right;
+}
+
+
+
+.skills{
+    padding: 20px 15%;
+}
+
+.skillContainer{
+    border-left: 4px solid black;
+    padding-left: 10px;
+}

@@ -1,0 +1,46 @@
+.Footer {
+  height: 40vh;
+  font-size: 18px;
+  margin-top: 100px;
+  
+}
+.Footer {
+
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#email {
+  color: rgb(31, 31, 31);
+}
+#whatsapp {
+  color: green;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+}
+.socialMedia .instagramIcon,
+.socialMedia .linkedinIcon,
+.socialMedia .youtubeIcon {
+  height: 40px;
+  width: 40px;
+  margin: 0px 30px;
+  margin-bottom: 50px;
+  background-size: contain;
+}
+.socialMedia .instagramIcon {
+  background-image: url(../../public/images/instagram.png);
+}
+.socialMedia .linkedinIcon {
+  background-image: url(../../public/images/linkedinBlack.png);
+}
+.socialMedia .youtubeIcon {
+  background-image: url(../../public/images/youtube.png);
+}
